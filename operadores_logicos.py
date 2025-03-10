@@ -38,5 +38,9 @@ jerarquia de presedencia de operadores
 
 '''
 #Ejemplo 4: jerarquia de operadores 
-y = False and True or False 
+y = False and not True or False 
 print("el resultado de operar con jerarquia es",y)
+
+#ejemplo 5: operadores relacionales y logicoa 
+y = not 3 > 4 and 4 == 4 or 3 < 2
+print("el resultado de operar con relacionales y logicos es", y)
